@@ -1,0 +1,134 @@
+/***************** SELETORES DE TAGS *****************************************/
+body{
+  margin: 0; /* mudo a margin padrão dos navegadores para 0 */
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+h1{
+  font-size: 4.375rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+h2{
+  font-size: 2.2rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+hr{
+  border-top: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+p{
+    line-height: 2; /* não é necessario medida pois é uma escala */
+}
+/***************** SELETORES DE CLASSES****************************************/
+.conteiner-superior{
+  background-color: #EAF6F6;/* antiga cor #E4F9F5*/
+  position: relative;
+  padding-top: 100px;
+}
+.conteiner-central{
+  margin: 100px 0;
+}
+.conteiner-inferior{
+  background-color: #66BFBF;
+  padding: 50px 0 10px;
+}
+.introducao{
+  width: 30%;
+  margin: auto;
+}
+.nuvem-acima{
+  position: absolute;
+  right: 250px;
+  top: 20px;
+}
+.nuvem-abaixo{
+  position: absolute;
+  left: 200px;
+  bottom: 250px;
+}
+.avatar{
+  border-radius: 100%;
+}
+.contato-mensagem{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.codificar{
+  border-radius: 100%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.java{
+  border-radius: 100%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.subtitulo{
+  margin: 0;
+  font-weight: normal;
+  line-height: 2;
+}
+.habilidade-linha{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.85rem;
+  padding: 20px 0;
+}
+.btn {
+  -moz-border-radius: 8px;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-border-radius: 8px;
+  -webkit-box-shadow: #6E7849 0 0 10px;
+  -webkit-transition: all 0.5s ease;
+  background-color: #11cdd4;
+  background-image: -moz-radial-gradient(center 90deg, circle cover, #11999e, #11cdd4);
+  background-image: -ms-radial-gradient(center 90deg, circle cover, #11999e, #11cdd4);
+  background-image: -webkit-radial-gradient(center 90deg, circle cover, #11999e, #11cdd4);
+  background-image: radial-gradient(center 90deg, circle cover, #11999e, #11cdd4);
+  border-radius: 8px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 1.2em;
+  margin: auto;
+  padding: 15px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+.btn:hover {
+  background-color: #30e3cb;
+  background-image: -moz-radial-gradient(center 90deg, circle cover, #2bc4ad, #30e3cb);
+  background-image: -ms-radial-gradient(center 90deg, circle cover, #2bc4ad, #30e3cb);
+  background-image: -webkit-radial-gradient(center 90deg, circle cover, #2bc4ad, #30e3cb);
+  background-image: radial-gradient(center 90deg, circle cover, #2bc4ad, #30e3cb);
+  padding: 15px;
+}
+/***************** SELETORES DE IDS *******************************************/
